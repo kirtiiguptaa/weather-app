@@ -50,6 +50,13 @@ async function checkWeather(city) {
     }
 }
 
+function trimSpaces() {
+    var inputBox = document.getElementById("inputBox");
+    if (inputBox) {
+        inputBox.value = inputBox.value.trim();
+    }
+}
+
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })

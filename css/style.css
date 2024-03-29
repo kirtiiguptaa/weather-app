@@ -18,6 +18,12 @@
     text-align: center;
 }
 
+.card h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
 .search {
     width: 100%;
     display: flex;

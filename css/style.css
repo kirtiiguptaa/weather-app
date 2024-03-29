@@ -54,6 +54,7 @@ body {
 
 .search button img {
     width: 16px;
+    margin-top: 5px;
 }
 
 .weather-icon {
@@ -115,13 +116,16 @@ body {
         padding: 30px 25px;
     }
     .search input{
-        width: 220px;
+        width: 200px;
         height: 45px;
         margin-right: 5px;
     }
     .search button {
         height: 45px;
         width: 45px;
+    }
+    .search button img {
+        width: 12px;
     }
     .col {
         display: block;

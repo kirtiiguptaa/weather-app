@@ -108,7 +108,6 @@
 @media (max-width: 400px) {
     .card {
         max-width: 350px;
-        width: 80%;
         padding: 30px 25px;
     }
     .search input{
